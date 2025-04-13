@@ -1,0 +1,9 @@
+username.github.io/
+│
+├── .nojekyll         # New file to disable Jekyll
+├── _config.yml       # Updated or deleted
+├── index.html        # Homepage
+├── report.html       # Resume page
+├── model.css         # Stylesheet
+└── 照片/
+    └── IMG_6990.jpg  # Profile photo
