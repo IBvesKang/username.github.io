@@ -51,11 +51,16 @@ ul {
     padding-left: 1.5rem; /* 根據您的期望調整 */
 }
 
-.skills ul {
+.education-list {
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .skills ul {
     list-style-type: disc;
-    margin-left: 1rem; /* 根據您的期望調整 */
-    padding-left: 1.5rem; /* 根據您的期望調整 */
-}
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+  }
 
 li {
     margin-bottom: 0.4rem;
