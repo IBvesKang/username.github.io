@@ -37,29 +37,6 @@ h2 {
     font-weight: 600;
 }
 
-/* 照片容器（藍色圓圈） */
-.photo-container {
-    width: 150px; /* 縮小預設寬度 */
-    height: 150px; /* 縮小預設高度 */
-    border: 2px solid #00b7eb;
-    border-radius: 50%;
-    display: block;
-    margin: 0;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    display: flex; /* 使用 flex 來居中圖片 */
-    justify-content: center;
-    align-items: center;
-}
-
-/* 照片樣式 */
-.profile-photo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* 改為 contain，保持圖片比例 */
-    display: block;
-    border-radius: 50%;
-}
 
 /* 段落和清單樣式 */
 p {
