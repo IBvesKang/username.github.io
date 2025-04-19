@@ -53,14 +53,15 @@ ul {
 
 .skills ul {
     list-style-type: disc;
-    margin-left: 1.5rem; /* 根據您的期望調整 */
-    padding-left: 3rem; /* 根據您的期望調整 */
-  }
+    margin-left: 0.5rem; /* 稍微減少左邊外邊距 */
+    padding-left: 1.75rem; /* 稍微增加左邊內邊距，調整文字起始位置 */
+}
 
 li {
     margin-bottom: 0.4rem;
     font-size: 1rem; /* 使用rem單位 */
     color: #555;
+    line-height: 1.5; /* 嘗試設定一個固定的行高值 */
 }
 
 /* 區塊樣式 */
