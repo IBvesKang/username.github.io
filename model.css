@@ -17,6 +17,22 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+/* 照片容器 */
+.photo-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* 標題樣式 */
@@ -235,7 +251,6 @@ nav ul li a:hover {
         padding-left: 1rem;
     }
 
-    /* 手機上隱藏部分欄位以改善可讀性 */
     .education-table th:nth-child(4),
     .education-table td:nth-child(4) {
         display: none;
